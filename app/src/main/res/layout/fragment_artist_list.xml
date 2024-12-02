@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#770436"
+    tools:context=".ui.fragments.ArtistListFragment">
+
+    <ProgressBar
+        android:id="@+id/pbLoading"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:indeterminateDrawable="@drawable/loading_anim"
+        android:indeterminateDuration="1500"
+        />
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/tvCorreoNoVerificado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="250dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:text="¡Correo no verificado!"
+        android:textColor="@color/element_bg"
+        android:textSize="25sp"
+        android:visibility="gone" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnReenviarVerificacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#440877"
+        app:cornerRadius="16dp"
+        android:textSize="15sp"
+        android:text="Reenviar correo de verificación"
+        android:textAllCaps="false"
+        android:visibility="gone"
+        />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnCerrarSesion"
+        android:textAllCaps="false"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_height="60dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="52dp"
+        app:cornerRadius="16dp"
+        android:backgroundTint="#440877"
+        android:text="Cerrar sesión"
+        android:textColor="#ffffff"
+        android:textSize="15sp"
+
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvItems"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+
+</LinearLayout>
+
+
+
+
+
+
+</FrameLayout>

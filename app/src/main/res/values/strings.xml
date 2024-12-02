@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Mod6Prac2</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="merch_tag">Tag</string>
+    <string name="cost">Costo</string>
+    <string name="table">Mesa</string>
+    <string name="artist">Artista</string>
+    <string name="merch_name">Mercancía</string>
+    <string name="merch_priority_list">Priodidad</string>
+    <string name="merch_type">Tipo</string>
+    <string name="imagen">Imagen</string>
+    <string name="mesa">Mesa numero:</string>
+    <string name="piso">"Piso: "</string>
+    <string name="sellos">Sellos:</string>
+    <string name="tarjeta">Pago por tarjeta:</string>
+    <string name="efectivo">Pago con efectivo:</string>
+    <string name="transferencia">Pago por transferencia:</string>
+    <string name="tipos_pago">"Tipos de pago disponibles: "</string>
+    <string name="titulologin">EVENTO</string>
+    <string name="subtitulologin">Aplicacion para eventos</string>
+    <string name="hintcorreo">Correo electrónico</string>
+    <string name="hintcontraseña">Contraseña</string>
+    <string name="btnIngresar">Ingresar</string>
+    <string name="btnRegistrarse">Registrarse</string>
+    <string name="restablecer">¿Olvidó su contraseña? Restablecer aquí</string>
+</resources>
